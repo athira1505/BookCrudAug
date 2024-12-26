@@ -20,6 +20,6 @@ from store import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("book/add",views.BookCreateView.as_view(),name="book-add"),
+    path("book/add/",views.BookCreateView.as_view(),name="book-add"),
 
 ]
